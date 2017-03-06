@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- CSS  -->
+
+  <!-- Meta tags -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+  <!-- Title -->
+  <title>this is my home page</title>
+
+  <!-- Google Fonts -->
+
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Compiled and minified JavaScript and JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <script>
+    //check scroll height on load to determine if menu needs to be sticky
+    $(window).on('load', function(){
+      if($(window).scrollTop() > 400){
+        $('nav').addClass("sticky-nav");
+        $('#nav-spacer').addClass("show-spacer");
+      }
+    });
+  </script>
+
+</head>
+<body id="top">
+
+  <div id="index-banner" class="parallax-container valign-wrapper is-400px">
+    <div class="container center">
+      <h1 class="header">Yo.</h1>
+      <p class="flow-text">I'm Connor.</p>
+    </div>
+    <div class="parallax"><img src="img/background.jpg" alt="Background Image"></div>
+  </div>
+
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">CJT</a>
+      <ul class="right hide-on-med-and-down">
+        <li id="home"><a href="#top" onClick="scrollToTop();return false">Top</a></li>
+        <li id="contact"><a href="#contactModal">Contact</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="nav-spacer" class="nav-spacer"></div>
+
+  <div class="container">
+    <div class="row nudge-1">
+      <div class="col l12 m12 s12 center">
+        <section>
+          <p>Welcome to my home on the internet. For as long as I can remember, I've had a passion for tinkering with technology. I love the winter and pretty much everything that comes with it. Check out the rest of my page to learn a little more about me. I promise, I'll try to keep things short and sweet!</p>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <div class="container center">
+    <div class="row nudge-1">
+      <div class="col l12 m12 s12">
+        <section>
+          <figure>
+            <img class="circle responsive-img" src="img/headshot.jpg">
+          </figure>
+        </section>
+      </div>
+      <div class="col l3 m12 s12">
+        <h5>Name</h5>
+        <p>Connor Tangney</p>
+      </div>
+      <div class="col offset-l1-5 l3 m12 s12">
+        <h5>Age</h5> 
+        <p>24</p>
+      </div>
+      <div class="col offset-l1-5 l3 m12 s12">
+        <h5>Location</h5> 
+        <p>Fremont, NH</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row nudge-2">
+      <div class="col l12 m12 s12">
+        <h5>Professional Skills</h5>
+        <ul class="inline-list">
+          <li>CSS</li>
+          <li>Word Processing</li>
+          <li>Data Entry</li>
+          <li>Photoshop</li>
+          <li>JavaScript</li>
+          <li>Debugging</li>
+          <li>XML</li>
+          <li>Java</li>
+          <li>Problem Solving</li>
+          <li>InDesign</li>
+          <li>Workflow Creation</li>
+          <li>NodeJS</li>
+          <li>HTML5</li>
+          <li>Lightroom</li>
+          <li>Remote File Management</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row nudge-2">
+      <div class="col l12 m12 s12">
+        <h5>Interests</h5>
+        <ul class="inline-list">
+          <li>Electronics</li>
+          <li>Skateboarding</li>
+          <li>Cooking</li>
+          <li>Liquid Cooling</li>
+          <li>Skiing</li>
+          <li>Webpage Layout</li>
+          <li>Design</li>
+          <li>Hiking</li>
+          <li>Video Games</li>
+          <li>Travel</li>
+          <li>Photography</li>
+          <li>Biking</li>
+          <li>Programming</li>
+          <li>Writing</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row nudge-2">
+      <div class="col l12 m12 s12">
+        <h5>Likes</h5>
+        <ul class="inline-list">
+          <li>Ingenuity</li>
+          <li>Snow</li>
+          <li>Cold Weather</li>
+          <li>Creativity</li>
+          <li>Timeliness</li>
+          <li>Sarcasm</li>
+          <li>Honesty</li>
+          <li>Respect</li>
+          <li>Technology</li>
+          <li>Chicken Parmesan</li>
+          <li>Organization</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row nudge-2">
+      <div class="col l12 m12 s12">
+        <h5>Disikes</h5>
+        <ul class="inline-list">
+          <li>Spiders</li>
+          <li>Tardiness</li>
+          <li>Hypocrisy</li>
+          <li>Low-Flying Aircraft</li>
+          <li>Dishonesty</li>
+          <li>Pygmy Marmosets</li>
+          <li>Negligence</li>
+          <li>Clutter</li>
+          <li>Hot Weather</li>
+          <li>Rain</li>
+          <li>Seafood</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="index-banner" class="parallax-container valign-wrapper is-400px">
+    <div class="container center">
+      <h1 class="header">The Nitty Gritty.</h1>
+    </div>
+    <div class="parallax"><img src="img/background.jpg" alt="Background Image"></div>
+  </div>
+
+  <div class="container center">
+    <div class="row nudge-2">
+      <div class="col l12 m12 s12">
+        <h5>Education</h5>
+        <p class="subheading">Rochester Institute of Technology, Rochester NY</p>
+        <hr class="small-divider">
+        <p>In 2014, I earned my B.S. in Media Arts and Technology. Touted to the world as a class of Media Architects, we were made familiar with numerous new mediums like web and mobile, as well as traditional mediums like print.</p>
+        <p>A regular course load included classes in HTML, digital asset management, print production workflow, basic photography, information architecture, typography, and design. I supplemented these courses with additional classes on database management, networking, computer programming, and some introductory information technology programs, as these courses aligned more with my personal interests.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row nudge-2">
+      <div class="col l12 m12 s12">
+        <h5>Work</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col l6 m12 s12">
+        <p class="subheading"><a href="http://www.raggedmountainresort.com">Ragged Mountain Resort</a></p>
+        <hr class="small-divider">
+        <p>I am currently a member of Ragged Mountain Resort's marketing team. I create posts for their blog and other social media outlets, photograph events, update their webpage as necessary, and assist with IT installations around the resort.
+      </div>
+      <div class="col l6 m12 s12">
+        <p class="subheading"><a href="http://www.globalprinting.com">Global Printing</a></p>
+        <hr class="small-divider">
+        <p>At Global Printing, my primary role was to create data-driven workflows which would output variable data documents to a number of formats. I regularly found myself using Java, JavaScript, HTML, and a handful of other languages in this position.
+      </div>
+    </div>
+    <div class="row">
+      <div class="col l6 m12 s12">
+        <p class="subheading"><a href="http://womenshealthexeter.com/">Partners for Women's Health</a></p>
+        <hr class="small-divider">
+        <p>At Partners for Women's Health, I assisted with their conversion from physical medical records to electronic medical records. Primarily, this entailed doing data entry, but I was also responsible for training physicians and new employees on the software.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row nudge-2">
+      <div class="col l12 m12 s12">
+        <h5>Awards and Achievements</h5>
+        <p class>National Technical Honor Society Inductee - 2010</p>
+        <p class>Dan Rank in Okinawan Kobud&#333; - 2009</p>
+        <p class>Dan Rank in Sh&#333;rin-ry&#363; Karate - 2006</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row nudge-2">
+      <div class="col l12 m12 s12">
+        <h5>And that's all she wrote!</h5>
+        <p>If you'd like a downloadable copy of my CV, or if you have any additional questions, feel free to reach out to me!</p>
+        <br /><br />
+        <a class="modal-trigger btn-large disabled" href="#contactModal">Reach out!</a>
+        <br /><br />
+      </div>
+    </div>
+  </div>
+
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <h4>Send me an email!</h4>
+      <br /><br />
+      <div class="row">
+        <form class="col s12" id="contact-form">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="first_name" name="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" name="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" name="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="msg" name="msg" class="materialize-textarea"></textarea>
+              <label for="msg">Message</label>
+            </div>
+          </div>
+          <div class="row center">
+            <button class="btn" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer bg-purple white-text">
+    <div class="footer-copyright">
+      <div class="container center">
+        © 2016 Connor Tangney
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+    //modal trigger
+    $(document).ready(function(){
+      $('.modal').modal();
+    })
+
+    //sticky nav script
+    $(function(){
+      $(window).scroll(function(){
+        if($(this).scrollTop() > 400){
+          $('nav').addClass("sticky-nav");
+          $('#nav-spacer').addClass("show-spacer");
+        }else{
+          $('nav').removeClass("sticky-nav");
+          $('#nav-spacer').removeClass("show-spacer");
+        }
+      });
+    });
+
+    //scroll to top
+    function scrollToTop(){
+      var timeOut;
+      if(document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
+        window.scrollBy(0,-50);
+        timeOut = setTimeout('scrollToTop()', 10);
+      }else{
+        clearTimeout(timeOut);
+      }
+    }
+  </script>
+  </body>
+</html>

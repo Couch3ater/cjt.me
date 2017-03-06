@@ -1,0 +1,170 @@
+/* Media Queries */
+
+@media only screen and (max-width : 993px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .row .col.offset-l1-5 {
+    margin-left: 12.49999999995%;
+  }
+}
+
+/* Nav Tweaks */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+nav {
+  color: white;
+  z-index: 1;
+}
+
+.nav-spacer{
+  height: 64px;
+  visibility: hidden;
+  display: none;
+}
+
+.show-spacer{
+  display: block;
+  visibility: visible;
+}
+
+.sticky-nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Parallax Stuff */
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  box-shadow: inset 0 0 0 1000px rgba(21, 101, 192,.5);
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+/* Footer Tweaks */
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* Typography */
+
+.subheading{
+  font-size: 1.2rem;
+}
+
+/* Helpers */
+
+.is-200px{
+  min-height: 200px;
+}
+
+.is-400px{
+  min-height: 400px;
+}
+
+.is-600px{
+  min-height: 600px;
+}
+
+.nudge-1{
+  margin-top: 25px;
+}
+
+.nudge-2{
+  margin-top: 50px;
+}
+
+.nudge-3{
+  margin-top: 75px;
+}
+
+.nudge-4{
+  margin-top: 100px;
+}
+
+.nudge-5{
+  margin-top: 150px;
+}
+
+.nudge-6{
+  margin-top: 200px;
+}
+
+.small-divider{
+  width: 50%;
+}
+
+/* Colors */
+
+.bg-purple{
+  background-color: #1C0221 !important;
+}
+
+.bg-light-green{
+  background-color: #94C595 !important;
+}
+
+.bg-dark-green{
+  background-color: #4A7C59 !important;
+}
+
+.bg-slate{
+  background-color: #6A8E7F !important;
+}
+
+.bg-grey{
+  background-color: #C8D5B9 !important;
+}
+
+/* Misc */
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.inline-list li{
+  display: inline-block;
+  margin: 0 25px 0 0;
+  line-height: 250%;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.modal {
+  max-height: 85% !important;
+}
